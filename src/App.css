@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,500&display=swap');
+
+body{
+  font-family: 'Roboto', sans-serif;
+  font-weight: 600;
+
+}
+.Header{
+  padding: 20px 80px ;
+  display: flex;
+  justify-content: space-between;
+}
+.navigation{
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+}
+.navigation a{
+  text-decoration: none;
+  color: black;
+  cursor: pointer;
+}
+
+
+
+.navigation a:hover{
+  color: purple;
+}
+
+
+
+/* Hero banner */
+
+.hero{
+  display: flex;
+  height: 400px;
+
+}
+.description{
+  width: 50%;
+  font-size: 3em;
+  padding: 100px;
+}
+
+.description p {
+  padding: none;
+  margin: none;
+}
+
+
+.modal-background{
+  position: absolute;
+  z-index: 2;
+  background: rgba( 255, 255, 255, 0.25 );
+  backdrop-filter: blur( 9px );
+  -webkit-backdrop-filter: blur( 9px );
+  width: 100%;
+  height: 100vh;
+}
+
+.modal{
+  background-color: lightgray;
+  z-index: 3;
+  display: flex;
+  width: 20%;
+  margin-left: 50%;
+  margin-top: 40vh;
+  translate: -50%;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  box-shadow: 10px 5px 12px #bbb;
+}
+
+
+.closebtn{
+  position: fixed;
+  top: 5px;
+  right: 5px;
+  border: none;
+  background-color: green;
+  height: 5px;
+  width: 5px;
+}
+
+
+
+.footer{
+  background-color: gray;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
